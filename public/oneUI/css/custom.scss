@@ -1,0 +1,32 @@
+// template made with one UI was remake by Adyjul
+@import 'navbar';
+@import 'utilities';
+@import 'responsive';
+@import 'pencarian';
+@import 'pembuatanSEP';
+@import 'loader';
+@import 'kunjunganControl';
+@import 'antrianOnline';
+@import 'displayAntrian';
+// #page-container.sidebar-mini.sidebar-o {
+//     padding-left: 0px;
+// }
+// .sidebar-mini.sidebar-o {
+//     #sidebar {
+//         transform: translateX(-250px) translateY(0) translateZ(0);
+//     }
+// }
+.nav-main-link.active {
+    color: #000;
+    background-color: #d4e3ef;
+}
+
+.nav-main-item.open>.nav-main-link-submenu {
+    color: #000;
+    background-color: #d4e3ef;
+}
+
+.nav-main-submenu .nav-main-link.active,
+.nav-main-submenu .nav-main-link:hover {
+    font-weight: 500;
+}
